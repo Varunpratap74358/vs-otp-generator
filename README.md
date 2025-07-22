@@ -31,9 +31,9 @@ import { generateAlphaNumericOTP} from 'vs-otp-generator';
 ```bash
 console.log(generateNumericOTP());
 
+console.log(generateAlphaNumericOTP(8));
+
 
 By default it genrate 6 digits of otp length but you can pass perametter acourding to your otp length
 
-
-console.log(generateAlphaNumericOTP(8));
 ```
